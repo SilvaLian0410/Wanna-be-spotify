@@ -1,10 +1,10 @@
-Instructions
+Guide:
 
-1. Copy the music folder and paste it into the Music Section
+Duplicate the music directory, then insert it into the Music Section.
 
-2. Copy the filepath for that Folder(Music) and paste it to 
-MusicPlayer.java on line :
--  LINE 89 = fileChooser.setCurrentDirectory(new File("FILEPATH HERE"));
-- LINE 110 =  Desktop.getDesktop().open(new File("FILEPATH HERE"));
+Copy the file path of the Music Folder and apply it to MusicPlayer.java at the following lines:
 
-3. to add a song the FILE must be in a wav type file
+LINE 89: fileChooser.setCurrentDirectory(new File("INSERT FILEPATH HERE"));
+LINE 110: Desktop.getDesktop().open(new File("INSERT FILEPATH HERE"));
+
+To include a song, ensure the file is in the WAV format.
